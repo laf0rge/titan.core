@@ -1,0 +1,267 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e180ef24_60e1a135",
+        "filename": "compiler2/CompilerError.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1007689
+      },
+      "writtenOn": "2019-05-13T12:59:13Z",
+      "side": 1,
+      "message": "This doesn\u0027t work for me. It just displays the string on the console. If I swap the \u0027]\u0027 for a \u0027[\u0027, then it works.",
+      "range": {
+        "startLine": 95,
+        "startChar": 8,
+        "endLine": 95,
+        "endChar": 18
+      },
+      "revId": "b3dca57db9bbc0a99e06f97e96cff296886c8219",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "39c6c2cc_7e5eda04",
+        "filename": "compiler2/CompilerError.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 338,
+      "author": {
+        "id": 1007689
+      },
+      "writtenOn": "2019-05-13T12:59:13Z",
+      "side": 1,
+      "message": "The context info shouldn\u0027t be colorized in my opinion. This should be moved before line 348.",
+      "range": {
+        "startLine": 338,
+        "startChar": 4,
+        "endLine": 338,
+        "endChar": 32
+      },
+      "revId": "b3dca57db9bbc0a99e06f97e96cff296886c8219",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f6acf597_9138d6d9",
+        "filename": "compiler2/CompilerError.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 347,
+      "author": {
+        "id": 1007689
+      },
+      "writtenOn": "2019-05-13T12:59:13Z",
+      "side": 1,
+      "message": "begin_colorize here",
+      "revId": "b3dca57db9bbc0a99e06f97e96cff296886c8219",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fb8d8a9_29588d63",
+        "filename": "compiler2/CompilerError.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 348,
+      "author": {
+        "id": 1007689
+      },
+      "writtenOn": "2019-05-13T12:59:13Z",
+      "side": 1,
+      "message": "end_colorize here",
+      "revId": "b3dca57db9bbc0a99e06f97e96cff296886c8219",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bc743d04_8c2c3b7e",
+        "filename": "compiler2/CompilerError.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 351,
+      "author": {
+        "id": 1007689
+      },
+      "writtenOn": "2019-05-13T12:59:13Z",
+      "side": 1,
+      "message": "The error message itself shouldn\u0027t be colorized in my opinion. This should be moved after line 348.",
+      "range": {
+        "startLine": 351,
+        "startChar": 4,
+        "endLine": 351,
+        "endChar": 19
+      },
+      "revId": "b3dca57db9bbc0a99e06f97e96cff296886c8219",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "82075426_c76d0078",
+        "filename": "compiler2/CompilerError.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 359,
+      "author": {
+        "id": 1007689
+      },
+      "writtenOn": "2019-05-13T12:59:13Z",
+      "side": 1,
+      "message": "The context info shouldn\u0027t be colorized in my opinion. This should be moved before line 363.",
+      "range": {
+        "startLine": 359,
+        "startChar": 4,
+        "endLine": 359,
+        "endChar": 34
+      },
+      "revId": "b3dca57db9bbc0a99e06f97e96cff296886c8219",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5d6d27b2_88d31cf3",
+        "filename": "compiler2/CompilerError.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 362,
+      "author": {
+        "id": 1007689
+      },
+      "writtenOn": "2019-05-13T12:59:13Z",
+      "side": 1,
+      "message": "begin_colorize here",
+      "revId": "b3dca57db9bbc0a99e06f97e96cff296886c8219",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cfd9ae41_7692e28e",
+        "filename": "compiler2/CompilerError.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 363,
+      "author": {
+        "id": 1007689
+      },
+      "writtenOn": "2019-05-13T12:59:13Z",
+      "side": 1,
+      "message": "end_colorize here",
+      "revId": "b3dca57db9bbc0a99e06f97e96cff296886c8219",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1b37b0bc_1046ace6",
+        "filename": "compiler2/CompilerError.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 366,
+      "author": {
+        "id": 1007689
+      },
+      "writtenOn": "2019-05-13T12:59:13Z",
+      "side": 1,
+      "message": "The warning message itself shouldn\u0027t be colorized in my opinion. This should be moved after line 363.",
+      "range": {
+        "startLine": 366,
+        "startChar": 4,
+        "endLine": 366,
+        "endChar": 19
+      },
+      "revId": "b3dca57db9bbc0a99e06f97e96cff296886c8219",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f78a1397_761dfad2",
+        "filename": "compiler2/CompilerError.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 374,
+      "author": {
+        "id": 1007689
+      },
+      "writtenOn": "2019-05-13T12:59:13Z",
+      "side": 1,
+      "message": "The context info shouldn\u0027t be colorized in my opinion. This should be moved before line 377.",
+      "range": {
+        "startLine": 374,
+        "startChar": 4,
+        "endLine": 374,
+        "endChar": 31
+      },
+      "revId": "b3dca57db9bbc0a99e06f97e96cff296886c8219",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ffb07f2_07feb4e9",
+        "filename": "compiler2/CompilerError.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 376,
+      "author": {
+        "id": 1007689
+      },
+      "writtenOn": "2019-05-13T12:59:13Z",
+      "side": 1,
+      "message": "begin_colorize here",
+      "revId": "b3dca57db9bbc0a99e06f97e96cff296886c8219",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eaa1eee8_20fc62cd",
+        "filename": "compiler2/CompilerError.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 377,
+      "author": {
+        "id": 1007689
+      },
+      "writtenOn": "2019-05-13T12:59:13Z",
+      "side": 1,
+      "message": "end_colorize here",
+      "revId": "b3dca57db9bbc0a99e06f97e96cff296886c8219",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "163cf0b4_cf1dee7c",
+        "filename": "compiler2/CompilerError.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 380,
+      "author": {
+        "id": 1007689
+      },
+      "writtenOn": "2019-05-13T12:59:13Z",
+      "side": 1,
+      "message": "The note message itself shouldn\u0027t be colorized in my opinion. This should be moved after line 377.",
+      "range": {
+        "startLine": 380,
+        "startChar": 4,
+        "endLine": 380,
+        "endChar": 19
+      },
+      "revId": "b3dca57db9bbc0a99e06f97e96cff296886c8219",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
