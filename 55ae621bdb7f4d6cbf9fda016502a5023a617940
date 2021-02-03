@@ -16,6 +16,23 @@
       "message": "what is the status here? This has been receiving tree positive reviews more than a year ago, but yet it has not made its way to titan.core master?",
       "revId": "55ae621bdb7f4d6cbf9fda016502a5023a617940",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cdc5cf08_833e7317",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1016281
+      },
+      "writtenOn": "2021-02-03T11:13:49Z",
+      "side": 1,
+      "message": "sorry, my mistake. it actually was merged.  I\u0027m just not used to the titan process :/",
+      "revId": "55ae621bdb7f4d6cbf9fda016502a5023a617940",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
