@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd53294d_af2ce92d",
+        "filename": "usrguide/apiguide/2-test_ports.adoc",
+        "patchSetId": 1
+      },
+      "lineNbr": 597,
+      "author": {
+        "id": 1007689
+      },
+      "writtenOn": "2021-02-03T11:50:15Z",
+      "side": 1,
+      "message": "one \u0027it\u0027 should be enough",
+      "range": {
+        "startLine": 597,
+        "startChar": 53,
+        "endLine": 597,
+        "endChar": 58
+      },
+      "revId": "770056cbfa8254ec81027f5313b3d1e9c71adc92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
