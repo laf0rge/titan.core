@@ -550,9 +550,12 @@ When the test executor reaches a blocking statement and any condition – for wh
 
 The execution must not be blocked in event handler functions; these must return immediately when the message or operation processing is ready. In other words, always use non-blocking `recv()` system calls. In the case when the messages are fragmented (for instance, when testing TCP based application layer protocols, such as HTTP), intermediate buffering should be performed in the Test Port class.
 
+[[epoll_evt_hdlr]]
 ===== Event and timeout handling interface introduced in TITAN version 1.7.pl4
 
 This descriptor event and timeout handling interface is the preferred interface for new Test Port development.
+Unlike the other method described below in <<select_evt_hdlr>>, this interface does not suffer from the
+limitations of the select() system call, particularly its limit to file descriptor numbers < 1024.
 
 There are two possibilities to be notified about available events:
 
@@ -588,7 +591,10 @@ void Handler_Set_Timer(double call_interval, boolean is_timeout = TRUE,
 
 `is_timeout` specifies if the timer has to be stopped when event handler is called. `call_anyway` is meaningful when `is_timeout` is set to `TRUE`. In this case `call_anyway` indicates if the `Handle_Timeout` function has to be called when event handler is called before the timer would expire. If `call_anyway` is `TRUE` the timeout handler will be called after the call of the event handlers and the timer will be stopped. `is_periodic` indicates if the timer has to be restarted instead of stopping when timer expires or event handler is called and `is_timeout` and `call_anyway` are both `TRUE`.
 
+[[select_evt_hdlr]]
 ===== Event handler for Test Ports developed for 1.7pl3 and earlier versions of TITAN
+
+NOTE:: This interface should not be used anymore, as it it suffers from the limitations of the select() system call, particularly its limit to file descriptor numbers < 1024. Please use the interface described at <<epoll_evt_hdlr>> instead.
 
 There is only one event handler function in each Test Port class called `Event_Handler`, which is a virtual member function. The run-time environment calls it when an incoming event arrives. You can install or uninstall the event handler by calling the following inherited member functions:
 [source, subs="+quotes"]
